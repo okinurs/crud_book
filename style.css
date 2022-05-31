@@ -1,0 +1,21 @@
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+ul.pagination li{display: inline;}
+ul.pagination li a{
+    color: purple;
+    float: left;
+    padding: 0px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+ul.pagination li a.active{
+    background-color: goldenrod;
+    color: white;
+    border: 1px solid white;
+}
+ul.pagination li a:hover:not(.active){
+    background-color: grey;
+}
